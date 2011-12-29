@@ -2,7 +2,7 @@ EventEmitter for Titanium
 
 Usage:
 
-In Resource folder do
+In Resources folder
 
 npm install ti-event-emitter
 

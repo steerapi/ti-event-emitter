@@ -1,0 +1,14 @@
+{
+  "name": "ti-event-emitter",
+  "description": "EventEmitter for Titanium",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Wisdom/ti-event-emitter"
+  },
+  "author": "Surat Teerapittayanon <steerapi@gmail.com>",
+  "engines": {
+    "node": "*"
+  },
+  "main": "./EventEmitter.js"
+}

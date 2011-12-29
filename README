@@ -1,1 +1,32 @@
 EventEmitter for Titanium
+
+Usage:
+
+In Resource folder do
+
+npm install ti-event-emitter
+
+In your source code
+
+require('/node_modules/ti-event-emitter/EventEmitter')
+
+// Initialise the EventEmitter
+var ee = new EventEmitter();
+
+// Initialise the listener function
+function myListener() {
+   alert('The foo event was emitted.');
+}
+
+// Add the listener
+ee.addListener('foo', myListener);
+
+// Emit the foo event
+ee.emit('foo'); // The listener function is now called
+
+// Remove the listener
+ee.removeListener('foo', myListener);
+
+// Log the array of listeners to show that it has been removed
+alert(ee.listeners('foo'));
+
